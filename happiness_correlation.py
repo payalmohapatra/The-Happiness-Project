@@ -39,3 +39,5 @@ print(df.head())
 spearman_cormatrix= df.corr(method='spearman')
 print('\n ********************Spearman Correlation*********************** \n')
 print(spearman_cormatrix)
+
+## start classfication
