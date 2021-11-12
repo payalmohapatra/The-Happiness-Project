@@ -41,11 +41,7 @@ spearman_cormatrix= df.corr(method='spearman')
 print('\n ********************Spearman Correlation*********************** \n')
 print(spearman_cormatrix)
 
-<<<<<<< Updated upstream
-## start classfication
-=======
 fig, ax = plt.subplots(ncols=2,figsize=(24, 8))
 sns.heatmap(spearman_cormatrix, vmin=-1, vmax=1, ax=ax[0], center=0, cmap="viridis", annot=True)
 sns.heatmap(spearman_cormatrix, vmin=-.25, vmax=1, ax=ax[1], center=0, cmap="Accent", annot=True)
 plt.show()
->>>>>>> Stashed changes
